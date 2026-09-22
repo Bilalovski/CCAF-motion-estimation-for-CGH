@@ -18,7 +18,7 @@ addpath(fullfile(this_dir, 'lib'));
 %       bins, and the band must still overlap between the two frames
 %       (M = 256: ~5 bins per 0.1 deg -> the pretzel's 1 deg needs K >= 101)
 M = 256;
-K = 64;
+K = 128;
 
 THETA = -1.2:0.02:1.2;               % deg, search grid for theta_x and theta_y
 TZ    = linspace(-5e-3, 5e-3, 21);   % m,   search grid for t_z
